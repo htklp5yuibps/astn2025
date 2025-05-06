@@ -1,0 +1,7 @@
+.main-menu {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: #25344A;
+}

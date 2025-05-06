@@ -1,4 +1,7 @@
+/* controlls imports */
+@import url(controlls/controlls.css);
+
 /* components imports*/
 @import url(header/header.css);
+@import url(main-menu/main-menu.css);
 
-/* controlls imports */
