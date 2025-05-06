@@ -1,0 +1,20 @@
+.header-user-panel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-user-panel__username {
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 0;
+}
+
+.header-user-panel__avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #415C82;
+    border: 2px solid #fff;
+}

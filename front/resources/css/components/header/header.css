@@ -1,0 +1,16 @@
+@import url(header-user-panel.css);
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #344A68;
+}
+
+.header__logo {
+    font-size: 2em;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #fff;
+}
