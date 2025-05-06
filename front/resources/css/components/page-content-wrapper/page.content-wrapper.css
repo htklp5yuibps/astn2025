@@ -1,3 +1,6 @@
+@import url(page-content-side-menu.css);
+
 .page-content-wrapper {
     flex-grow: 1;
+    display: flex;
 }
