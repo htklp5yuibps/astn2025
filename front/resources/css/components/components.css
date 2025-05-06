@@ -4,4 +4,6 @@
 /* components imports*/
 @import url(header/header.css);
 @import url(main-menu/main-menu.css);
+@import url(page-content-wrapper/page.content-wrapper.css);
+@import url(footer/footer.css);
 
