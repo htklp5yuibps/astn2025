@@ -8,12 +8,14 @@ import jakarta.servlet.http.HttpServletResponse;
 import no.comp.astn2025.command.Command;
 import no.comp.astn2025.command.CommandProvider;
 import no.comp.astn2025.command.impl.UserCommandProviderImpl;
+import no.comp.astn2025.configuration.AppConfiguration;
 
 import java.io.IOException;
 
 @WebServlet(urlPatterns = {"/*"})
 public class DispatcherRervlet extends HttpServlet {
 
+    AppConfiguration applicationConfig = AppConfiguration.getInstance();
     CommandProvider commandProvider = new UserCommandProviderImpl();
 
     @Override
