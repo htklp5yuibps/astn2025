@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public abstract class AbstractCommandProvider implements CommandProvider {
+public abstract class AbstractCommandProvider implements CommandProvider, JSONMapper, AttributeProvider {
     private Map<CommandProvider.HttpMethod, Map<Pattern, Command>> commands = new HashMap<>();
 
     @Override
